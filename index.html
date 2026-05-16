@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saket Sankhla | Engineer & Creator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+  <!-- SCANLINE OVERLAY -->
+  <div class="scanlines"></div>
+
+  <canvas id="particles"></canvas>
+
+  <!-- NAV -->
+  <nav id="mainNav">
+    <div class="inner">
+      <a href="#hero" class="nav-logo">
+        <span class="status-dot"></span>
+        SAKET_SANKHLA
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" data-section="hero">Init</a></li>
+        <li><a href="#intro" data-section="intro">System</a></li>
+        <li><a href="#about" data-section="about">Specs</a></li>
+        <li><a href="#exp" data-section="exp">Log</a></li>
+        <li><a href="#projects" data-section="projects">Lab</a></li>
+        <li><a href="#links" data-section="links">Comms</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO (INIT) -->
+  <section id="hero">
+    <div class="container">
+      <div class="init-layout reveal">
+        <div class="init-hero-flex">
+          <div class="init-photo-wrap">
+            <img src="assets/tony.png" alt="Saket Sankhla" class="init-photo">
+          </div>
+          <div class="init-text-content">
+            <h1 class="init-title">SAKET_SANKHLA</h1>
+            <div class="init-subtitle"><span id="typedText"></span></div>
+            <p class="init-brief">
+              Specializing in RTL Design and Embedded Systems. <br>
+              Developing efficient silicon logic and hardware solutions.
+            </p>
+            <div class="init-btns">
+              <a href="#projects" class="btn-primary"><span>PROJECTS</span></a>
+              <a href="#links" class="btn-secondary">COMMS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SYSTEM_MANIFEST (BIO) -->
+  <section id="system-report">
+    <div class="container">
+      <div class="manifest-wrapper reveal">
+        <!-- MANIFEST HEADER -->
+        <div class="manifest-header">
+          <div class="manifest-title-group">
+            <span class="manifest-id">[MANIFEST_01]</span>
+            <h2 class="manifest-title">SYSTEM_CORE_MANIFEST</h2>
+          </div>
+          <div class="manifest-status">
+            <span class="status-dot"></span>
+            <span class="status-text">SYSTEM_ACTIVE</span>
+          </div>
+        </div>
+
+        <!-- MANIFEST CONTENT -->
+        <div class="manifest-body">
+          <div class="manifest-mission">
+            <div class="block-label">// MISSION_OVERVIEW</div>
+            <p class="mission-text">
+              Designing high-performance silicon logic and autonomous embedded systems.
+              Inspired by industrial architecture and the pursuit of hardware perfection.
+            </p>
+          </div>
+
+          <div class="manifest-specs">
+            <div class="spec-entry">
+              <span class="spec-label">CORE_EDUCATION</span>
+              <span class="spec-value">B.Tech ECE // GECA, Ajmer · 2023–2027</span>
+            </div>
+            <div class="spec-entry">
+              <span class="spec-label">PRIMARY_FOCUS</span>
+              <span class="spec-value">VLSI RTL Design // PCB Layout // Embedded</span>
+            </div>
+            <div class="spec-entry">
+              <span class="spec-label">INSPIRATION_PATH</span>
+              <span class="spec-value">Tony Stark // Engineering from First Principles</span>
+            </div>
+            <div class="spec-entry">
+              <span class="spec-label">AVAILABILITY</span>
+              <span class="spec-value">Active // Open for VLSI & Embedded Roles</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="exp">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">02</span>
+        <h2 class="section-title">// SYSTEM_LOG - EXPERIENCE</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="tl-date">05/05/2026 — 06/07/2026</div>
+          <div class="tl-title">DRDO Internship</div>
+          <div class="tl-org">DRDO // DEFENCE RESEARCH & DEVELOPMENT ORG.</div>
+          <div class="tl-desc">Technical internship focused on core electronics and defense research projects.</div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="tl-date">2026</div>
+          <div class="tl-title">Participant — Drone Hackathon</div>
+          <div class="tl-org">IIT ROORKEE</div>
+          <div class="tl-desc">Developed and optimized drone electronics and flight logic in a competitive
+            national-level hackathon.</div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="tl-date">02/07/2025 — 16/08/2025</div>
+          <div class="tl-title">VLSI Design Intern</div>
+          <div class="tl-org">MAVEN SILICON // BENGALURU</div>
+          <div class="tl-desc">Designed an APB-to-AHB bridge in SystemVerilog. Wrote testbenches, analysed waveforms,
+            and optimized RTL logic.</div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="tl-date">04/06/2024 — 18/06/2024</div>
+          <div class="tl-title">Summer Trainee (15 Days)</div>
+          <div class="tl-org">BSNL // JODHPUR</div>
+          <div class="tl-desc">Vocational training in telecommunication switching systems and network infrastructure.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">03</span>
+        <h2 class="section-title">// CORE_LOGIC - SKILLS</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid stagger" id="skillsGrid">
+        <div class="skill-module">
+          <div class="skill-mod-header">
+            <span class="skill-mod-name">RTL Skills</span>
+            <span class="skill-mod-level">Core</span>
+          </div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" data-width="85"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Verilog</span><span class="skill-tag">VHDL</span>
+            <span class="skill-tag">RTL Design</span><span class="skill-tag">Logic Optimization</span>
+          </div>
+        </div>
+        <div class="skill-module">
+          <div class="skill-mod-header">
+            <span class="skill-mod-name">Design Tools</span>
+            <span class="skill-mod-level">Active</span>
+          </div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" data-width="80"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Xilinx Vivado</span><span class="skill-tag">Altium Designer</span>
+            <span class="skill-tag">Altium 365</span><span class="skill-tag">Arduino IDE</span>
+          </div>
+        </div>
+        <div class="skill-module">
+          <div class="skill-mod-header">
+            <span class="skill-mod-name">Hardware</span>
+            <span class="skill-mod-level">Active</span>
+          </div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" data-width="75"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Arduino</span><span class="skill-tag">ESP32</span>
+            <span class="skill-tag">ESP8266</span><span class="skill-tag">PCB Layout</span>
+          </div>
+        </div>
+        <div class="skill-module">
+          <div class="skill-mod-header">
+            <span class="skill-mod-name">Software</span>
+            <span class="skill-mod-level">Expertise</span>
+          </div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" data-width="70"></div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">C / C++</span><span class="skill-tag">Python</span>
+            <span class="skill-tag">HTML / CSS</span><span class="skill-tag">Vanilla JS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">04</span>
+        <h2 class="section-title">// THE_LAB - PROJECTS</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid stagger">
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-id">Project 01 // VLSI</div>
+            <div class="project-status"><span class="status-dot"></span> ONLINE</div>
+          </div>
+          <div class="project-name">APH-to-APB Bridge</div>
+          <div class="project-desc">A chip-level protocol bridge designed in SystemVerilog — part of advanced SoC
+            communication architecture. Verified with custom testbenches and RTL simulation.</div>
+          <div class="project-tech">
+            <span class="tech-badge">Verilog</span><span class="tech-badge">RTL Design</span>
+            <span class="tech-badge">Xilinx Vivado</span>
+            <!-- <span class="tech-badge"></span> -->
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-id">Project 02 // IOT</div>
+            <div class="project-status"><span class="status-dot"></span> ACTIVE</div>
+          </div>
+          <div class="project-name">Electricity Theft Detector</div>
+          <div class="project-desc">An ESP32-powered smart energy meter that detects power theft in real time using
+            voltage and current sensors. Sends live alerts and monitors consumption logic.</div>
+          <div class="project-tech">
+            <span class="tech-badge">ESP32</span><span class="tech-badge">ZMPT101B</span>
+            <span class="tech-badge">SCT-013</span><span class="tech-badge">Embedded C++</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-id">Project 03 // WEB</div>
+            <div class="project-status"><span class="status-dot"></span> DEPLOYED</div>
+          </div>
+          <div class="project-name">Personal Portfolio</div>
+          <div class="project-desc">This command-center inspired portfolio designed to showcase VLSI and Embedded
+            expertise. Built with pure HTML, CSS, and Vanilla JavaScript for high performance.</div>
+          <div class="project-tech">
+            <span class="tech-badge">HTML5</span><span class="tech-badge">CSS3</span>
+            <span class="tech-badge">Vanilla JS</span><span class="tech-badge">Responsive Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="links">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">05</span>
+        <h2 class="section-title">// COMMS - CONTACT</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="links-grid stagger">
+        <a href="https://github.com/SaketSankhla" class="link-card">
+          <span class="link-icon">&lt;/&gt;</span>
+          <span class="link-name">GitHub</span>
+          <span class="link-handle">@SaketSankhla</span>
+        </a>
+        <a href="https://www.linkedin.com/in/saket-s-4a193a277/" class="link-card">
+          <span class="link-icon">[in]</span>
+          <span class="link-name">LinkedIn</span>
+          <span class="link-handle">Saket Sankhla</span>
+        </a>
+        <a href="mailto:saketsankh18@gmail.com" class="link-card">
+          <span class="link-icon">@</span>
+          <span class="link-name">Email</span>
+          <span class="link-handle">saketsankh18@gmail.com</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div class="footer-label">DESIGNED_FOR</div>
+        <div class="footer-value">VLSI / EMBEDDED / HARDWARE</div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-label">TECH_STACK</div>
+        <div class="footer-value">HTML5 / CSS3 / VANILLA_JS</div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-label">STATUS</div>
+        <div class="footer-value">ALL_SYSTEMS_NOMINAL</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
